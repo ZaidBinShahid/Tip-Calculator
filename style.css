@@ -1,0 +1,81 @@
+ @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+ body {
+     background-color: hsl(185, 41%, 84%);
+     font-weight: 700;
+     font-size: 14px;
+ }
+
+ h4 {
+     letter-spacing: 5px;
+     color: hsl(183, 100%, 15%);
+ }
+
+ .card {
+     background-color: hsl(183, 100%, 15%)a;
+ }
+
+ .nestedCard {
+     background-color: hsl(183, 100%, 15%);
+     border-radius: 10px;
+     color: white;
+     height: 85%;
+ }
+
+ span {
+     color: hsl(172, 67%, 45%);
+ }
+
+ .btn {
+     background-color: hsl(183, 100%, 15%) !important;
+     color: white !important;
+     width: 30%;
+     font-family: 'Space Mono', monospace;
+     /* font-weight: 700; */
+     font-size: 20px;
+ }
+
+ .btn:focus {
+     background-color: hsl(172, 67%, 45%) !important;
+     color: hsl(183, 100%, 15%) !important;
+ }
+
+ input {
+     text-align: right;
+ }
+
+ ::placeholder {
+     font-family: 'Space Mono', monospace;
+     text-align: left;
+     font-size: 24px;
+ }
+
+ #customField {
+    display: inline-flex;
+    width: 100px;
+    height: 45px;
+    font-size: 24px;
+    /* text-align: center; */
+    background-color: aliceblue;
+ }
+
+ #customField::placeholder {
+    font-family: 'Space Mono', monospace;
+    /* font-size: 24px; */
+    text-align: center;
+    color: hsl(183, 100%, 15%);
+    border: none;
+ }
+
+ #resetBtn {
+     background-color: hsl(172, 67%, 45%) !important;
+     color: hsl(183, 100%, 15%) !important;
+     font-size: 16px;
+     height: 40px;
+ }
+
+ .fa-person {
+     position: absolute;
+     transform: translateY(-150%);
+     cursor: pointer;
+ }
