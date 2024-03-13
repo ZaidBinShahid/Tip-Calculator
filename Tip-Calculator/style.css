@@ -1,0 +1,109 @@
+ @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+ body {
+     background-color: hsl(185, 41%, 84%);
+     font-family: 'Space Mono', monospace;
+     font-weight: 700;
+     font-size: 14px;
+ }
+
+ h4 {
+     letter-spacing: 5px;
+     color: hsl(183, 100%, 15%);
+     font-family: 'Space Mono', monospace;
+ }
+
+ #firstSection {
+    padding-left: 40px;
+    padding-right: 20px;
+ }
+
+ .card {
+     border-radius: 20px;
+ }
+
+ .nestedCard {
+     background-color: hsl(183, 100%, 15%);
+     border-radius: 10px;
+     color: white;
+     height: 85%;
+     /* margin-left: 150px; */
+ }
+ 
+ p {
+    line-height: 3%;
+    font-family: 'Space Mono', monospace;
+ }
+
+ span {
+     color: hsl(172, 67%, 45%);
+     font-family: 'Space Mono', monospace;
+ }
+
+ .btn {
+     background-color: hsl(183, 100%, 15%) !important;
+     color: white !important;
+     width: 30%;
+     font-family: 'Space Mono', monospace;
+     font-size: 20px;
+ }
+
+ .btn:focus {
+     background-color: hsl(172, 67%, 45%) !important;
+     color: hsl(183, 100%, 15%) !important;
+ }
+
+ input {
+    font-family: 'Space Mono', monospace;
+    outline: none;
+ }
+
+ #billAmount, #numberOfPeople {
+    background-color: honeydew ;
+    color: grey;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+
+ }
+
+ ::placeholder {
+     font-family: 'Space Mono', monospace;
+     text-align: left;
+ }
+
+ #customField {
+    display: flex;
+    display: inline-flex;
+    background-color: aliceblue;
+    width: 100px;
+    height: 50px;
+    font-size: 22px;
+    border-style: hidden;  
+ }
+
+ #customField:focus {
+    outline: none;
+ }
+
+ #customField::placeholder {
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    color: hsl(183, 100%, 15%);
+ }
+
+ #resetBtn {
+     background-color: hsl(172, 67%, 45%)!important;
+     color: hsl(183, 100%, 15%) !important;
+     font-size: 16px;
+     font-weight: 700;
+     height: 50px;
+     margin-top: 70px;
+     width: 90%;
+
+ }
+
+ .fa-person {
+     position: absolute;
+     transform: translateY(-150%);
+     cursor: pointer;
+ }
